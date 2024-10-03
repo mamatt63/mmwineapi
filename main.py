@@ -5,7 +5,7 @@ import numpy as np
 import json
 
 # load model
-clf = load('lr.joblib')
+clf = load('model.joblib')
 
 # Define a Data Model for your feature Matrix
 class WineProperties(BaseModel):
